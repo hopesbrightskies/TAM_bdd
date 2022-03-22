@@ -18,7 +18,7 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Nadiia_Rusakova/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         commonStep = new CommonStep();
